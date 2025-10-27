@@ -1,0 +1,1504 @@
+{
+  "quizzes": [
+    {
+      "id": "phishing-basics",
+      "title": "Phishing Awareness",
+      "description": "Test your knowledge about identifying and avoiding phishing attacks",
+      "category": "Email Security",
+      "difficulty": "Beginner",
+      "estimatedTime": "5 minutes",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is phishing?",
+          "type": "multiple-choice",
+          "options": [
+            "A type of fishing technique",
+            "A method of tricking people into revealing sensitive information",
+            "A computer virus",
+            "A password manager"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Phishing is a social engineering attack where attackers trick people into revealing sensitive information like passwords or credit card numbers."
+        },
+        {
+          "id": 2,
+          "question": "Which of these is a common sign of a phishing email?",
+          "type": "multiple-choice",
+          "options": [
+            "Urgent language demanding immediate action",
+            "Spelling and grammar errors",
+            "Requests for personal information",
+            "All of the above"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Phishing emails often use urgent language, contain errors, and request personal information to pressure victims into acting quickly."
+        },
+        {
+          "id": 3,
+          "question": "What should you do if you receive a suspicious email?",
+          "type": "multiple-choice",
+          "options": [
+            "Click the link to verify if it's real",
+            "Reply asking if it's legitimate",
+            "Delete it or report it as spam",
+            "Forward it to friends to warn them"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The safest approach is to delete suspicious emails or report them as spam. Never click links or provide information."
+        },
+        {
+          "id": 4,
+          "question": "Which is an example of spear phishing?",
+          "type": "multiple-choice",
+          "options": [
+            "A mass email sent to thousands of users",
+            "A personalized email targeting a specific individual",
+            "A random social media post",
+            "A phishing website"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Spear phishing targets a specific individual using personalized information to appear legitimate."
+        },
+        {
+          "id": 5,
+          "question": "Phishing attacks can occur via:",
+          "type": "multiple-choice",
+          "options": [
+            "Email",
+            "Phone calls",
+            "Text messages",
+            "All of the above"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Phishing can occur via multiple channels, including email, phone (vishing), and text messages (smishing)."
+        }
+      ]
+    },
+    {
+      "id": "password-security",
+      "title": "Password Security",
+      "description": "Learn best practices for creating and managing secure passwords",
+      "category": "Authentication",
+      "difficulty": "Beginner",
+      "estimatedTime": "4 minutes",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What makes a password strong?",
+          "type": "multiple-choice",
+          "options": [
+            "It's long and contains personal information",
+            "It's short but complex",
+            "It's long, unique, and contains a mix of characters",
+            "It's easy to remember"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Strong passwords are long, unique, and contain a mix of uppercase, lowercase, numbers, and special characters."
+        },
+        {
+          "id": 2,
+          "question": "How often should you change your passwords?",
+          "type": "multiple-choice",
+          "options": [
+            "Every week",
+            "Only when there's a security breach",
+            "Every 30 days",
+            "Every year"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Modern security advice suggests changing passwords only when there's evidence of a breach, not on a regular schedule."
+        },
+        {
+          "id": 3,
+          "question": "What is the best way to manage multiple passwords?",
+          "type": "multiple-choice",
+          "options": [
+            "Write them down on paper",
+            "Use the same password for everything",
+            "Use a password manager",
+            "Store them in a text file"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Password managers securely store and generate unique passwords for all your accounts."
+        },
+        {
+          "id": 4,
+          "question": "Which is NOT recommended for password creation?",
+          "type": "multiple-choice",
+          "options": [
+            "Using personal info like birthdays",
+            "Using a passphrase",
+            "Using random letters, numbers, and symbols",
+            "Using long passwords"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Personal info should not be used in passwords as it can be easily guessed or found online."
+        },
+        {
+          "id": 5,
+          "question": "What is multi-factor authentication (MFA)?",
+          "type": "multiple-choice",
+          "options": [
+            "Logging in with two different passwords",
+            "Using multiple methods to verify identity",
+            "Changing passwords frequently",
+            "Writing down passwords"
+          ],
+          "correctAnswer": 1,
+          "explanation": "MFA requires using multiple methods (something you know, something you have, or something you are) to verify identity."
+        }
+      ]
+    },
+    {
+      "id": "two-factor-auth",
+      "title": "Two-Factor Authentication",
+      "description": "Understand the importance and implementation of 2FA",
+      "category": "Authentication",
+      "difficulty": "Intermediate",
+      "estimatedTime": "6 minutes",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is two-factor authentication (2FA)?",
+          "type": "multiple-choice",
+          "options": [
+            "Using two different passwords",
+            "Logging in twice",
+            "Using two different types of authentication factors",
+            "Having two accounts"
+          ],
+          "correctAnswer": 2,
+          "explanation": "2FA requires two different authentication factors: something you know (password) and something you have (phone/token)."
+        },
+        {
+          "id": 2,
+          "question": "Which is the most secure form of 2FA?",
+          "type": "multiple-choice",
+          "options": [
+            "SMS text messages",
+            "Hardware security keys",
+            "Email codes",
+            "Backup codes"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Hardware security keys are the most secure as they're resistant to phishing and SIM swapping attacks."
+        },
+        {
+          "id": 3,
+          "question": "When should you enable 2FA?",
+          "type": "multiple-choice",
+          "options": [
+            "Only on banking websites",
+            "Only on work accounts",
+            "On all important accounts",
+            "It's not necessary"
+          ],
+          "correctAnswer": 2,
+          "explanation": "2FA should be enabled on all important accounts, especially email, banking, and social media."
+        },
+        {
+          "id": 4,
+          "question": "Which of these is a common 2FA method?",
+          "type": "multiple-choice",
+          "options": [
+            "Passwords only",
+            "Security questions only",
+            "Authentication apps or tokens",
+            "Email alerts"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Authentication apps or tokens provide a dynamic code that is more secure than SMS or email."
+        },
+        {
+          "id": 5,
+          "question": "Why is 2FA important?",
+          "type": "multiple-choice",
+          "options": [
+            "It makes logging in faster",
+            "It adds an extra layer of security",
+            "It allows password sharing",
+            "It replaces passwords"
+          ],
+          "correctAnswer": 1,
+          "explanation": "2FA adds an extra layer of security, making it harder for attackers to compromise accounts even if passwords are stolen."
+        }
+      ]
+    },
+    {
+      "id": "malware-basics",
+      "title": "Malware Fundamentals",
+      "description": "Learn about different types of malicious software and how to protect against them",
+      "category": "Malware",
+      "difficulty": "Beginner",
+      "estimatedTime": "5 minutes",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is malware?",
+          "type": "multiple-choice",
+          "options": [
+            "Legitimate software from Microsoft",
+            "Software designed to harm or exploit systems",
+            "Antivirus software",
+            "A type of email attachment"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Malware is malicious software designed to damage, disrupt, or gain unauthorized access to computer systems."
+        },
+        {
+          "id": 2,
+          "question": "Which of these is a type of malware?",
+          "type": "multiple-choice",
+          "options": [
+            "Ransomware",
+            "Trojan Horse",
+            "Spyware",
+            "All of the above"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Ransomware, trojan horses, and spyware are all different types of malicious software."
+        },
+        {
+          "id": 3,
+          "question": "What does ransomware do?",
+          "type": "multiple-choice",
+          "options": [
+            "Sends spam emails",
+            "Encrypts files and demands payment",
+            "Steals passwords only",
+            "Shows annoying ads"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Ransomware encrypts your files and demands payment (usually in cryptocurrency) for the decryption key."
+        },
+        {
+          "id": 4,
+          "question": "How can you protect against malware?",
+          "type": "multiple-choice",
+          "options": [
+            "Keep software updated",
+            "Use antivirus software",
+            "Be cautious with downloads",
+            "All of the above"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Protection requires multiple layers: keeping software updated, using antivirus, and being cautious with downloads and links."
+        },
+        {
+          "id": 5,
+          "question": "What is a trojan horse?",
+          "type": "multiple-choice",
+          "options": [
+            "A legitimate security tool",
+            "Malware disguised as legitimate software",
+            "A type of firewall",
+            "An encryption method"
+          ],
+          "correctAnswer": 1,
+          "explanation": "A trojan horse is malware that disguises itself as legitimate software to trick users into installing it."
+        }
+      ]
+    },
+    {
+      "id": "encryption-basics",
+      "title": "Encryption Essentials",
+      "description": "Understanding how encryption protects your data",
+      "category": "Cryptography",
+      "difficulty": "Intermediate",
+      "estimatedTime": "6 minutes",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is encryption?",
+          "type": "multiple-choice",
+          "options": [
+            "Deleting files permanently",
+            "Converting data into a coded format",
+            "Backing up data",
+            "Compressing files"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Encryption converts data into a coded format that can only be read with the correct decryption key."
+        },
+        {
+          "id": 2,
+          "question": "What does HTTPS mean?",
+          "type": "multiple-choice",
+          "options": [
+            "High Transfer Protocol System",
+            "HTTP Secure - encrypted web connection",
+            "Hyper Text Protocol Standard",
+            "Home Transfer Protocol Security"
+          ],
+          "correctAnswer": 1,
+          "explanation": "HTTPS means HTTP Secure, indicating the connection is encrypted using SSL/TLS protocols."
+        },
+        {
+          "id": 3,
+          "question": "Which is stronger encryption?",
+          "type": "multiple-choice",
+          "options": [
+            "64-bit encryption",
+            "128-bit encryption",
+            "256-bit encryption",
+            "They're all the same"
+          ],
+          "correctAnswer": 2,
+          "explanation": "256-bit encryption is stronger than 128-bit or 64-bit because it has exponentially more possible key combinations."
+        },
+        {
+          "id": 4,
+          "question": "What is end-to-end encryption?",
+          "type": "multiple-choice",
+          "options": [
+            "Encrypting only at the endpoints",
+            "Data encrypted from sender to receiver only",
+            "Partial encryption",
+            "Server-side encryption"
+          ],
+          "correctAnswer": 1,
+          "explanation": "End-to-end encryption means data is encrypted on the sender's device and only decrypted on the receiver's device."
+        },
+        {
+          "id": 5,
+          "question": "Why should you use a VPN on public WiFi?",
+          "type": "multiple-choice",
+          "options": [
+            "To get faster internet",
+            "To encrypt your internet traffic",
+            "To access blocked websites only",
+            "VPNs aren't necessary"
+          ],
+          "correctAnswer": 1,
+          "explanation": "VPNs encrypt your internet traffic, protecting it from interception on unsecured public WiFi networks."
+        }
+      ]
+    },
+    {
+      "id": "social-engineering",
+      "title": "Social Engineering Attacks",
+      "description": "Recognize and defend against manipulation tactics",
+      "category": "Social Engineering",
+      "difficulty": "Intermediate",
+      "estimatedTime": "7 minutes",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is social engineering?",
+          "type": "multiple-choice",
+          "options": [
+            "A type of antivirus software",
+            "Manipulating people to divulge information",
+            "Network engineering",
+            "Software development"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Social engineering is the psychological manipulation of people to trick them into divulging confidential information or performing actions."
+        },
+        {
+          "id": 2,
+          "question": "Which is an example of pretexting?",
+          "type": "multiple-choice",
+          "options": [
+            "Sending mass spam emails",
+            "Creating a fake scenario to gain trust",
+            "Installing malware",
+            "Encrypting files"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Pretexting involves creating a fabricated scenario (pretext) to gain someone's trust and extract information."
+        },
+        {
+          "id": 3,
+          "question": "What is baiting in cybersecurity?",
+          "type": "multiple-choice",
+          "options": [
+            "Offering something enticing to lure victims",
+            "Fishing for passwords",
+            "Setting up firewalls",
+            "Creating backups"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Baiting offers something desirable (like free software or USB drives) to lure victims into a trap."
+        },
+        {
+          "id": 4,
+          "question": "What is tailgating?",
+          "type": "multiple-choice",
+          "options": [
+            "Following someone through a secure door",
+            "Tracking internet usage",
+            "Monitoring network traffic",
+            "Following on social media"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Tailgating is when an unauthorized person follows an authorized person into a restricted area."
+        },
+        {
+          "id": 5,
+          "question": "How can you defend against social engineering?",
+          "type": "multiple-choice",
+          "options": [
+            "Verify identities before sharing information",
+            "Be skeptical of unsolicited requests",
+            "Follow security policies",
+            "All of the above"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Defense requires verification, skepticism, and adherence to security policies."
+        }
+      ]
+    },
+    {
+      "id": "network-security",
+      "title": "Network Security Basics",
+      "description": "Understanding how to secure networks and connections",
+      "category": "Network Security",
+      "difficulty": "Intermediate",
+      "estimatedTime": "6 minutes",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a firewall?",
+          "type": "multiple-choice",
+          "options": [
+            "A physical barrier in buildings",
+            "Security system that monitors network traffic",
+            "Antivirus software",
+            "Password manager"
+          ],
+          "correctAnswer": 1,
+          "explanation": "A firewall monitors and controls incoming and outgoing network traffic based on security rules."
+        },
+        {
+          "id": 2,
+          "question": "What does WPA3 refer to?",
+          "type": "multiple-choice",
+          "options": [
+            "A type of malware",
+            "WiFi encryption protocol",
+            "Web programming standard",
+            "Windows security feature"
+          ],
+          "correctAnswer": 1,
+          "explanation": "WPA3 is the latest WiFi encryption protocol, providing stronger security than WPA2."
+        },
+        {
+          "id": 3,
+          "question": "Why is default router password dangerous?",
+          "type": "multiple-choice",
+          "options": [
+            "It's too complex",
+            "It's publicly known and easily exploited",
+            "It expires quickly",
+            "It's not dangerous"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Default passwords are publicly known and should be changed immediately to prevent unauthorized access."
+        },
+        {
+          "id": 4,
+          "question": "What is a DDoS attack?",
+          "type": "multiple-choice",
+          "options": [
+            "Distributed Denial of Service",
+            "Data Download Service",
+            "Digital Defense System",
+            "Direct Database Operation"
+          ],
+          "correctAnswer": 0,
+          "explanation": "DDoS attacks overwhelm a system with traffic from multiple sources, making it unavailable to users."
+        },
+        {
+          "id": 5,
+          "question": "What should you do with unused network services?",
+          "type": "multiple-choice",
+          "options": [
+            "Keep them running",
+            "Disable or remove them",
+            "Share them publicly",
+            "Ignore them"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Unused services should be disabled or removed as they present potential attack vectors."
+        }
+      ]
+    },
+    {
+      "id": "mobile-security",
+      "title": "Mobile Device Security",
+      "description": "Protecting your smartphones and tablets",
+      "category": "Mobile Security",
+      "difficulty": "Beginner",
+      "estimatedTime": "5 minutes",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the first security step for a new mobile device?",
+          "type": "multiple-choice",
+          "options": [
+            "Download all apps",
+            "Set up a strong lock screen",
+            "Connect to public WiFi",
+            "Disable updates"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Setting up a strong lock screen (PIN, password, or biometric) is the first critical security step."
+        },
+        {
+          "id": 2,
+          "question": "Where should you download apps from?",
+          "type": "multiple-choice",
+          "options": [
+            "Any website offering free apps",
+            "Official app stores only",
+            "Email attachments",
+            "Text message links"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Download apps only from official app stores (Google Play, Apple App Store) to avoid malware."
+        },
+        {
+          "id": 3,
+          "question": "What are app permissions?",
+          "type": "multiple-choice",
+          "options": [
+            "App prices",
+            "Access rights apps request to device features",
+            "User reviews",
+            "Download requirements"
+          ],
+          "correctAnswer": 1,
+          "explanation": "App permissions are access rights that apps request to use device features like camera, contacts, or location."
+        },
+        {
+          "id": 4,
+          "question": "Why keep your mobile OS updated?",
+          "type": "multiple-choice",
+          "options": [
+            "For new emojis only",
+            "To fix security vulnerabilities",
+            "To use more battery",
+            "Updates aren't important"
+          ],
+          "correctAnswer": 1,
+          "explanation": "OS updates include critical security patches that fix known vulnerabilities."
+        },
+        {
+          "id": 5,
+          "question": "What should you enable on your phone for theft protection?",
+          "type": "multiple-choice",
+          "options": [
+            "Bluetooth",
+            "Find My Device/Phone",
+            "All apps",
+            "Developer mode"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Find My Device allows you to locate, lock, or wipe your phone if it's lost or stolen."
+        }
+      ]
+    },
+    {
+      "id": "web-security",
+      "title": "Web Browsing Security",
+      "description": "Safe practices for internet browsing",
+      "category": "Web Security",
+      "difficulty": "Beginner",
+      "estimatedTime": "5 minutes",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does the padlock icon in the address bar indicate?",
+          "type": "multiple-choice",
+          "options": [
+            "The site is trustworthy",
+            "The connection is encrypted",
+            "The site is free",
+            "The site is popular"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The padlock indicates an encrypted HTTPS connection, but doesn't guarantee the site is trustworthy."
+        },
+        {
+          "id": 2,
+          "question": "What are cookies?",
+          "type": "multiple-choice",
+          "options": [
+            "Viruses",
+            "Small data files stored by websites",
+            "Password managers",
+            "Firewalls"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Cookies are small data files that websites store on your device to remember information about you."
+        },
+        {
+          "id": 3,
+          "question": "What is private/incognito browsing?",
+          "type": "multiple-choice",
+          "options": [
+            "Complete anonymity online",
+            "Browsing without saving history locally",
+            "Protection from all tracking",
+            "A VPN service"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Private browsing prevents your browser from saving history locally, but doesn't make you anonymous online."
+        },
+        {
+          "id": 4,
+          "question": "What is a browser extension?",
+          "type": "multiple-choice",
+          "options": [
+            "A longer URL",
+            "Additional software that adds features to browsers",
+            "A type of virus",
+            "A website category"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Browser extensions add functionality but can also access your browsing data, so install only trusted ones."
+        },
+        {
+          "id": 5,
+          "question": "Why clear browser cache regularly?",
+          "type": "multiple-choice",
+          "options": [
+            "To free up space and protect privacy",
+            "To make internet slower",
+            "To delete all passwords",
+            "It's not necessary"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Clearing cache frees up storage space and removes potentially sensitive cached data."
+        }
+      ]
+    },
+    {
+      "id": "data-privacy",
+      "title": "Data Privacy Fundamentals",
+      "description": "Understanding and protecting your personal information",
+      "category": "Privacy",
+      "difficulty": "Beginner",
+      "estimatedTime": "6 minutes",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is PII?",
+          "type": "multiple-choice",
+          "options": [
+            "Personal Investment Information",
+            "Personally Identifiable Information",
+            "Private Internet Integration",
+            "Public Information Interface"
+          ],
+          "correctAnswer": 1,
+          "explanation": "PII (Personally Identifiable Information) is data that can identify an individual, like name, address, or SSN."
+        },
+        {
+          "id": 2,
+          "question": "Which is considered PII?",
+          "type": "multiple-choice",
+          "options": [
+            "Your full name",
+            "Social Security Number",
+            "Home address",
+            "All of the above"
+          ],
+          "correctAnswer": 3,
+          "explanation": "All of these are PII and should be protected carefully."
+        },
+        {
+          "id": 3,
+          "question": "What is GDPR?",
+          "type": "multiple-choice",
+          "options": [
+            "A type of malware",
+            "European data protection regulation",
+            "A password standard",
+            "A social media platform"
+          ],
+          "correctAnswer": 1,
+          "explanation": "GDPR is the General Data Protection Regulation, a European law protecting personal data and privacy."
+        },
+        {
+          "id": 4,
+          "question": "What should you check before sharing personal info online?",
+          "type": "multiple-choice",
+          "options": [
+            "The website's privacy policy",
+            "If HTTPS is enabled",
+            "Who will have access to the data",
+            "All of the above"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Always verify the privacy policy, security measures, and data access before sharing personal information."
+        },
+        {
+          "id": 5,
+          "question": "What is data minimization?",
+          "type": "multiple-choice",
+          "options": [
+            "Deleting all data",
+            "Collecting only necessary data",
+            "Compressing files",
+            "Encrypting data"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Data minimization means collecting and retaining only the minimum data necessary for a specific purpose."
+        }
+      ]
+    },
+    {
+      "id": "incident-response",
+      "title": "Security Incident Response",
+      "description": "How to respond to security incidents",
+      "category": "Incident Response",
+      "difficulty": "Intermediate",
+      "estimatedTime": "7 minutes",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the first step if you suspect a security breach?",
+          "type": "multiple-choice",
+          "options": [
+            "Delete all files",
+            "Disconnect from network and report it",
+            "Restart your computer",
+            "Continue working normally"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Isolate the affected system by disconnecting from the network and immediately report the incident."
+        },
+        {
+          "id": 2,
+          "question": "What should you do if you accidentally click a phishing link?",
+          "type": "multiple-choice",
+          "options": [
+            "Ignore it",
+            "Change passwords and report it",
+            "Click it again to verify",
+            "Forward to friends"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Immediately change passwords, run antivirus scan, and report the incident to IT security."
+        },
+        {
+          "id": 3,
+          "question": "What is a security incident?",
+          "type": "multiple-choice",
+          "options": [
+            "Any event threatening security",
+            "Normal system updates",
+            "Scheduled maintenance",
+            "User password changes"
+          ],
+          "correctAnswer": 0,
+          "explanation": "A security incident is any event that threatens confidentiality, integrity, or availability of data or systems."
+        },
+        {
+          "id": 4,
+          "question": "Why is documentation important during an incident?",
+          "type": "multiple-choice",
+          "options": [
+            "For legal and learning purposes",
+            "It's not important",
+            "Only for compliance",
+            "To blame someone"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Documentation helps with investigation, legal requirements, and learning to prevent future incidents."
+        },
+        {
+          "id": 5,
+          "question": "What is ransomware recovery plan?",
+          "type": "multiple-choice",
+          "options": [
+            "Paying the ransom",
+            "Having backups and recovery procedures",
+            "Buying new computers",
+            "There's no recovery possible"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The best recovery plan includes regular backups and documented recovery procedures, not paying ransom."
+        }
+      ]
+    },
+    {
+      "id": "cloud-security",
+      "title": "Cloud Security Basics",
+      "description": "Securing data and applications in the cloud",
+      "category": "Cloud Security",
+      "difficulty": "Intermediate",
+      "estimatedTime": "6 minutes",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is cloud computing?",
+          "type": "multiple-choice",
+          "options": [
+            "Weather prediction",
+            "Using internet-based services for storage/computing",
+            "Local file storage",
+            "Wireless networking"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Cloud computing provides on-demand access to computing resources over the internet."
+        },
+        {
+          "id": 2,
+          "question": "Who is responsible for cloud data security?",
+          "type": "multiple-choice",
+          "options": [
+            "Only the cloud provider",
+            "Only the customer",
+            "Shared responsibility between both",
+            "No one"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Cloud security follows a shared responsibility model where both provider and customer have security obligations."
+        },
+        {
+          "id": 3,
+          "question": "What is two-factor authentication important for cloud accounts?",
+          "type": "multiple-choice",
+          "options": [
+            "It's not important",
+            "Adds extra layer of protection",
+            "Makes login faster",
+            "Only for business accounts"
+          ],
+          "correctAnswer": 1,
+          "explanation": "2FA is critical for cloud accounts as they often contain sensitive data accessible from anywhere."
+        },
+        {
+          "id": 4,
+          "question": "What should you check before using a cloud service?",
+          "type": "multiple-choice",
+          "options": [
+            "Privacy policy and security features",
+            "Only the price",
+            "Number of users",
+            "Company logo"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Always review privacy policies, security features, data location, and compliance certifications."
+        },
+        {
+          "id": 5,
+          "question": "What is encryption at rest?",
+          "type": "multiple-choice",
+          "options": [
+            "Encrypting data while sleeping",
+            "Encrypting stored data",
+            "Encrypting during transfer",
+            "Not encrypting at all"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Encryption at rest protects stored data on servers and storage devices from unauthorized access."
+        }
+      ]
+    },
+    {
+      "id": "iot-security",
+      "title": "IoT Device Security",
+      "description": "Securing Internet of Things devices",
+      "category": "IoT Security",
+      "difficulty": "Intermediate",
+      "estimatedTime": "6 minutes",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is IoT?",
+          "type": "multiple-choice",
+          "options": [
+            "Internet of Things - connected devices",
+            "International Online Trading",
+            "Internet Optical Technology",
+            "Integrated Operating Terminal"
+          ],
+          "correctAnswer": 0,
+          "explanation": "IoT refers to the network of physical devices connected to the internet, collecting and sharing data."
+        },
+        {
+          "id": 2,
+          "question": "What is a common IoT security risk?",
+          "type": "multiple-choice",
+          "options": [
+            "Default passwords",
+            "Lack of updates",
+            "Weak encryption",
+            "All of the above"
+          ],
+          "correctAnswer": 3,
+          "explanation": "IoT devices often have default passwords, infrequent updates, and weak security features."
+        },
+        {
+          "id": 3,
+          "question": "What should you do after setting up an IoT device?",
+          "type": "multiple-choice",
+          "options": [
+            "Change default password immediately",
+            "Connect to public WiFi",
+            "Disable security features",
+            "Share credentials online"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Always change default credentials immediately as they're publicly known and easily exploited."
+        },
+        {
+          "id": 4,
+          "question": "Why segment IoT devices on separate network?",
+          "type": "multiple-choice",
+          "options": [
+            "To make them faster",
+            "To isolate them from critical systems",
+            "It's not necessary",
+            "To save bandwidth"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Segmenting IoT devices limits damage if they're compromised and protects critical systems."
+        },
+        {
+          "id": 5,
+          "question": "What data might smart home devices collect?",
+          "type": "multiple-choice",
+          "options": [
+            "Usage patterns",
+            "Voice recordings",
+            "Location data",
+            "All of the above"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Smart devices can collect extensive data about your habits, conversations, and location."
+        }
+      ]
+    },
+    {
+      "id": "email-security",
+      "title": "Email Security Best Practices",
+      "description": "Protecting your email communications",
+      "category": "Email Security",
+      "difficulty": "Beginner",
+      "estimatedTime": "5 minutes",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a suspicious email indicator?",
+          "type": "multiple-choice",
+          "options": [
+            "Unexpected attachments",
+            "Urgent requests for information",
+            "Poor grammar and spelling",
+            "All of the above"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Multiple indicators like unexpected attachments, urgency, and errors suggest phishing attempts."
+        },
+        {
+          "id": 2,
+          "question": "Should you open attachments from unknown senders?",
+          "type": "multiple-choice",
+          "options": [
+            "Yes, to see what they are",
+            "No, they could contain malware",
+            "Only if they look interesting",
+            "Only on mobile devices"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Never open attachments from unknown senders as they may contain malware or ransomware."
+        },
+        {
+          "id": 3,
+          "question": "What is email spoofing?",
+          "type": "multiple-choice",
+          "options": [
+            "Sending lots of emails",
+            "Faking the sender's address",
+            "Encrypting emails",
+            "Forwarding emails"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Email spoofing is forging the sender's address to make it appear from a trusted source."
+        },
+        {
+          "id": 4,
+          "question": "What is SPF in email security?",
+          "type": "multiple-choice",
+          "options": [
+            "Sender Policy Framework",
+            "Spam Protection Filter",
+            "Secure Password Format",
+            "Standard Privacy Feature"
+          ],
+          "correctAnswer": 0,
+          "explanation": "SPF (Sender Policy Framework) helps verify that emails are sent from authorized servers."
+        },
+        {
+          "id": 5,
+          "question": "How can you verify a suspicious email?",
+          "type": "multiple-choice",
+          "options": [
+            "Click all links to test them",
+            "Contact sender through known channel",
+            "Reply asking if it's real",
+            "Forward to all contacts"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Verify suspicious emails by contacting the supposed sender through a known, trusted channel."
+        }
+      ]
+    },
+    {
+      "id": "backup-recovery",
+      "title": "Backup and Recovery",
+      "description": "Protecting data through backups and recovery plans",
+      "category": "Data Protection",
+      "difficulty": "Beginner",
+      "estimatedTime": "5 minutes",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the 3-2-1 backup rule?",
+          "type": "multiple-choice",
+          "options": [
+            "3 copies, 2 media types, 1 offsite",
+            "3 backups per day, 2 locations, 1 person",
+            "3 passwords, 2 devices, 1 account",
+            "3 files, 2 folders, 1 drive"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The 3-2-1 rule: keep 3 copies of data, on 2 different media types, with 1 copy offsite."
+        },
+        {
+          "id": 2,
+          "question": "How often should you backup important data?",
+          "type": "multiple-choice",
+          "options": [
+            "Never",
+            "Once a year",
+            "Regularly based on how often it changes",
+            "Only when the computer breaks"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Backup frequency should match how often your data changes and how much you can afford to lose."
+        },
+        {
+          "id": 3,
+          "question": "What is the difference between backup and archive?",
+          "type": "multiple-choice",
+          "options": [
+            "There is no difference",
+            "Backup is for recovery, archive is for long-term storage",
+            "Archives are always encrypted",
+            "Backups are only for businesses"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Backups are for recovery and regularly updated; archives are for long-term retention of data."
+        },
+        {
+          "id": 4,
+          "question": "Why test backup restoration?",
+          "type": "multiple-choice",
+          "options": [
+            "It's not necessary",
+            "To verify backups actually work",
+            "To delete old backups",
+            "To slow down the system"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Regular restoration tests ensure backups are functioning and data can be recovered when needed."
+        },
+        {
+          "id": 5,
+          "question": "What is cloud backup advantage?",
+          "type": "multiple-choice",
+          "options": [
+            "Automatic and offsite protection",
+            "Free unlimited storage",
+            "Faster than local backup",
+            "No internet needed"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Cloud backups provide automatic, offsite protection against local disasters and hardware failures."
+        }
+      ]
+    },
+    {
+      "id": "wifi-security",
+      "title": "WiFi Network Security",
+      "description": "Securing wireless networks and connections",
+      "category": "Network Security",
+      "difficulty": "Beginner",
+      "estimatedTime": "5 minutes",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the most secure WiFi encryption?",
+          "type": "multiple-choice",
+          "options": [
+            "WEP",
+            "WPA",
+            "WPA2",
+            "WPA3"
+          ],
+          "correctAnswer": 3,
+          "explanation": "WPA3 is the latest and most secure WiFi encryption standard, replacing WPA2."
+        },
+        {
+          "id": 2,
+          "question": "Why change default router SSID?",
+          "type": "multiple-choice",
+          "options": [
+            "To look cool",
+            "To hide router model from attackers",
+            "It's not necessary",
+            "To get faster internet"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Changing default SSID hides the router model, which attackers could use to find known vulnerabilities."
+        },
+        {
+          "id": 3,
+          "question": "What is a rogue access point?",
+          "type": "multiple-choice",
+          "options": [
+            "A legitimate WiFi router",
+            "An unauthorized wireless access point",
+            "A type of cable",
+            "A network administrator"
+          ],
+          "correctAnswer": 1,
+          "explanation": "A rogue access point is an unauthorized wireless access point that can intercept traffic."
+        },
+        {
+          "id": 4,
+          "question": "Should you use public WiFi for banking?",
+          "type": "multiple-choice",
+          "options": [
+            "Yes, it's always safe",
+            "No, unless using VPN",
+            "Only on weekends",
+            "Only for small transactions"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Avoid sensitive activities on public WiFi unless using a VPN to encrypt your connection."
+        },
+        {
+          "id": 5,
+          "question": "What is WPS and why disable it?",
+          "type": "multiple-choice",
+          "options": [
+            "WiFi Protected Setup - has vulnerabilities",
+            "Wireless Password System - too complex",
+            "Web Protection Service - not needed",
+            "WPS is essential for security"
+          ],
+          "correctAnswer": 0,
+          "explanation": "WPS (WiFi Protected Setup) has security vulnerabilities and should be disabled on routers."
+        }
+      ]
+    },
+    {
+      "id": "browser-security",
+      "title": "Advanced Browser Security",
+      "description": "Deep dive into browser security features and threats",
+      "category": "Web Security",
+      "difficulty": "Intermediate",
+      "estimatedTime": "7 minutes",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a man-in-the-middle attack?",
+          "type": "multiple-choice",
+          "options": [
+            "A type of phishing",
+            "Intercepting communications between two parties",
+            "A password attack",
+            "A type of malware"
+          ],
+          "correctAnswer": 1,
+          "explanation": "MITM attacks intercept and possibly alter communications between two parties without their knowledge."
+        },
+        {
+          "id": 2,
+          "question": "What is Cross-Site Scripting (XSS)?",
+          "type": "multiple-choice",
+          "options": [
+            "A programming language",
+            "Injecting malicious scripts into websites",
+            "A browser feature",
+            "A type of encryption"
+          ],
+          "correctAnswer": 1,
+          "explanation": "XSS involves injecting malicious scripts into trusted websites to attack visitors."
+        },
+        {
+          "id": 3,
+          "question": "What does Content Security Policy (CSP) do?",
+          "type": "multiple-choice",
+          "options": [
+            "Manages passwords",
+            "Prevents XSS and injection attacks",
+            "Encrypts data",
+            "Blocks all scripts"
+          ],
+          "correctAnswer": 1,
+          "explanation": "CSP helps prevent XSS and other injection attacks by controlling resource loading."
+        },
+        {
+          "id": 4,
+          "question": "What are tracking cookies?",
+          "type": "multiple-choice",
+          "options": [
+            "Cookies that improve performance",
+            "Cookies that monitor browsing behavior",
+            "Antivirus software",
+            "Browser updates"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tracking cookies monitor and record your browsing behavior across websites for advertising."
+        },
+        {
+          "id": 5,
+          "question": "What is browser fingerprinting?",
+          "type": "multiple-choice",
+          "options": [
+            "Biometric authentication",
+            "Identifying users by browser characteristics",
+            "Scanning for viruses",
+            "Password management"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Browser fingerprinting tracks users by collecting unique characteristics about their browser and device."
+        }
+      ]
+    },
+    {
+      "id": "secure-coding",
+      "title": "Secure Coding Basics",
+      "description": "Fundamentals of writing secure code",
+      "category": "Application Security",
+      "difficulty": "Advanced",
+      "estimatedTime": "8 minutes",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is SQL injection?",
+          "type": "multiple-choice",
+          "options": [
+            "A database feature",
+            "Inserting malicious SQL code to manipulate databases",
+            "A legitimate query method",
+            "A type of backup"
+          ],
+          "correctAnswer": 1,
+          "explanation": "SQL injection inserts malicious SQL statements to manipulate or access databases unauthorized."
+        },
+        {
+          "id": 2,
+          "question": "What is input validation?",
+          "type": "multiple-choice",
+          "options": [
+            "Checking user input for malicious content",
+            "Asking users to verify inputs",
+            "Encrypting user data",
+            "Logging all inputs"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Input validation checks and sanitizes user input to prevent injection attacks and errors."
+        },
+        {
+          "id": 3,
+          "question": "What is the principle of least privilege?",
+          "type": "multiple-choice",
+          "options": [
+            "Everyone should have admin rights",
+            "Give minimum permissions needed for a task",
+            "Restrict all access",
+            "Share all credentials"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Least privilege means granting only the minimum permissions necessary to perform required tasks."
+        },
+        {
+          "id": 4,
+          "question": "Why avoid hardcoding secrets in code?",
+          "type": "multiple-choice",
+          "options": [
+            "It's more efficient",
+            "Secrets can be exposed in version control",
+            "It makes code faster",
+            "It's recommended practice"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Hardcoded secrets can be exposed in version control, logs, or decompiled code."
+        },
+        {
+          "id": 5,
+          "question": "What is security through obscurity?",
+          "type": "multiple-choice",
+          "options": [
+            "A recommended security practice",
+            "Relying on secrecy instead of proper security",
+            "Strong encryption",
+            "Multi-factor authentication"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Security through obscurity relies on keeping implementation details secret rather than using proper security measures."
+        }
+      ]
+    },
+    {
+      "id": "social-media-security",
+      "title": "Social Media Security",
+      "description": "Protecting your social media presence",
+      "category": "Privacy",
+      "difficulty": "Beginner",
+      "estimatedTime": "5 minutes",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What information should you avoid posting publicly?",
+          "type": "multiple-choice",
+          "options": [
+            "Vacation plans and location",
+            "Personal contact information",
+            "Photos of valuables",
+            "All of the above"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Avoid sharing information that could be used for identity theft, burglary, or targeting attacks."
+        },
+        {
+          "id": 2,
+          "question": "What are privacy settings for?",
+          "type": "multiple-choice",
+          "options": [
+            "To make your profile popular",
+            "To control who sees your content",
+            "To delete your account",
+            "They don't matter"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Privacy settings control who can see your posts, profile information, and contact you."
+        },
+        {
+          "id": 3,
+          "question": "Why be cautious accepting friend requests?",
+          "type": "multiple-choice",
+          "options": [
+            "Fake accounts can gather information",
+            "It doesn't matter",
+            "More friends is always better",
+            "To save storage space"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Fake accounts and strangers can collect your information for malicious purposes."
+        },
+        {
+          "id": 4,
+          "question": "What is oversharing on social media?",
+          "type": "multiple-choice",
+          "options": [
+            "Posting too frequently",
+            "Sharing too much personal information",
+            "Having too many friends",
+            "Using multiple platforms"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Oversharing means revealing too much personal information that could be exploited."
+        },
+        {
+          "id": 5,
+          "question": "Should you use social media login for other websites?",
+          "type": "multiple-choice",
+          "options": [
+            "Yes, it's always convenient",
+            "No, it creates security dependencies",
+            "Only for trusted sites",
+            "Only on mobile"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Social media login creates dependencies and if that account is compromised, all connected accounts are at risk."
+        }
+      ]
+    },
+    {
+      "id": "security-awareness",
+      "title": "Security Awareness Culture",
+      "description": "Building a security-conscious mindset",
+      "category": "Security Culture",
+      "difficulty": "Beginner",
+      "estimatedTime": "6 minutes",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is security awareness?",
+          "type": "multiple-choice",
+          "options": [
+            "Knowing about antivirus software",
+            "Understanding threats and how to respond",
+            "Installing firewalls",
+            "Using strong passwords only"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Security awareness is understanding potential threats and knowing how to recognize and respond to them."
+        },
+        {
+          "id": 2,
+          "question": "Why is human error a major security risk?",
+          "type": "multiple-choice",
+          "options": [
+            "Humans are naturally careless",
+            "People can be tricked or make mistakes",
+            "Technology is always perfect",
+            "It's not a risk"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Humans can be manipulated through social engineering or make unintentional mistakes that compromise security."
+        },
+        {
+          "id": 3,
+          "question": "What should you do if you notice suspicious activity?",
+          "type": "multiple-choice",
+          "options": [
+            "Ignore it",
+            "Report it immediately",
+            "Investigate it yourself",
+            "Tell only your friends"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Report suspicious activity immediately to security or IT teams who can properly investigate."
+        },
+        {
+          "id": 4,
+          "question": "What is a security policy?",
+          "type": "multiple-choice",
+          "options": [
+            "Insurance for computers",
+            "Guidelines for protecting information",
+            "Antivirus software",
+            "Password manager"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Security policies are documented guidelines and rules for protecting an organization's information assets."
+        },
+        {
+          "id": 5,
+          "question": "Why continuous learning important in cybersecurity?",
+          "type": "multiple-choice",
+          "options": [
+            "It's not important",
+            "Threats constantly evolve",
+            "Only for IT professionals",
+            "One training is enough"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Cyber threats constantly evolve, requiring continuous learning to stay aware of new risks and protection methods."
+        }
+      ]
+    }
+  ]
+}

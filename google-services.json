@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "713937954692",
+    "project_id": "cyber-33397",
+    "storage_bucket": "cyber-33397.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713937954692:android:782e22bfe7d8b152d81fd1",
+        "android_client_info": {
+          "package_name": "com.anupa.cyberstrong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713937954692-ggffvu8gr9cp7nf6jpstsk6kb6a2k433.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anupa.cyberstrong",
+            "certificate_hash": "b4a90fec7d2b0840276b603d9126830aa69522cc"
+          }
+        },
+        {
+          "client_id": "713937954692-9prq8elesjh7u3uqqcg93v7v3ecb1il3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYk0t4NfH5o5SqpCYOlG08kRwIhD4u9f4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713937954692-9prq8elesjh7u3uqqcg93v7v3ecb1il3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "713937954692-7qfjfg0r4rrrovp787flea2is68noq70.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.anupa.cyberstrong"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

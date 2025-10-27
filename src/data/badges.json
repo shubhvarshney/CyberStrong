@@ -1,0 +1,486 @@
+{
+  "badges": [
+    {
+      "id": "first_quiz",
+      "name": "First Steps",
+      "description": "Complete your first cybersecurity quiz",
+      "icon": "school-outline",
+      "color": "#3b82f6",
+      "category": "Learning",
+      "criteria": {
+        "type": "quiz_completion",
+        "requirement": 1
+      },
+      "points": 50
+    },
+    {
+      "id": "quiz_apprentice",
+      "name": "Quiz Apprentice",
+      "description": "Complete 3 cybersecurity quizzes",
+      "icon": "book-outline",
+      "color": "#3b82f6",
+      "category": "Learning",
+      "criteria": {
+        "type": "quiz_completion",
+        "requirement": 3
+      },
+      "points": 75
+    },
+    {
+      "id": "quiz_master",
+      "name": "Quiz Master",
+      "description": "Complete 10 cybersecurity quizzes",
+      "icon": "trophy-outline",
+      "color": "#f59e0b",
+      "category": "Learning",
+      "criteria": {
+        "type": "quiz_completion",
+        "requirement": 10
+      },
+      "points": 150
+    },
+    {
+      "id": "quiz_expert",
+      "name": "Quiz Expert",
+      "description": "Complete 20 cybersecurity quizzes",
+      "icon": "medal-outline",
+      "color": "#8b5cf6",
+      "category": "Learning",
+      "criteria": {
+        "type": "quiz_completion",
+        "requirement": 20
+      },
+      "points": 250
+    },
+    {
+      "id": "quiz_legend",
+      "name": "Quiz Legend",
+      "description": "Complete 50 cybersecurity quizzes",
+      "icon": "star-outline",
+      "color": "#dc2626",
+      "category": "Learning",
+      "criteria": {
+        "type": "quiz_completion",
+        "requirement": 50
+      },
+      "points": 500
+    },
+    {
+      "id": "perfect_score",
+      "name": "Perfectionist",
+      "description": "Get 100% on any quiz",
+      "icon": "checkmark-circle-outline",
+      "color": "#06b6d4",
+      "category": "Achievement",
+      "criteria": {
+        "type": "perfect_quiz_score",
+        "requirement": 1
+      },
+      "points": 75
+    },
+    {
+      "id": "perfect_trio",
+      "name": "Triple Perfect",
+      "description": "Get 100% on 3 different quizzes",
+      "icon": "ribbon-outline",
+      "color": "#10b981",
+      "category": "Achievement",
+      "criteria": {
+        "type": "perfect_quiz_score",
+        "requirement": 3
+      },
+      "points": 125
+    },
+    {
+      "id": "perfect_five",
+      "name": "Flawless Five",
+      "description": "Get 100% on 5 different quizzes",
+      "icon": "diamond-outline",
+      "color": "#8b5cf6",
+      "category": "Achievement",
+      "criteria": {
+        "type": "perfect_quiz_score",
+        "requirement": 5
+      },
+      "points": 200
+    },
+    {
+      "id": "perfect_ten",
+      "name": "Perfect Ten",
+      "description": "Get 100% on 10 different quizzes",
+      "icon": "sparkles-outline",
+      "color": "#f59e0b",
+      "category": "Achievement",
+      "criteria": {
+        "type": "perfect_quiz_score",
+        "requirement": 10
+      },
+      "points": 300
+    },
+    {
+      "id": "security_habits",
+      "name": "Security Conscious",
+      "description": "Enable all security habits",
+      "icon": "shield-checkmark-outline",
+      "color": "#10b981",
+      "category": "Habits",
+      "criteria": {
+        "type": "habits_enabled",
+        "requirement": 4
+      },
+      "points": 75
+    },
+    {
+      "id": "habit_starter",
+      "name": "Habit Starter",
+      "description": "Complete 3 daily security habits",
+      "icon": "checkbox-outline",
+      "color": "#06b6d4",
+      "category": "Habits",
+      "criteria": {
+        "type": "habits_completed",
+        "requirement": 3
+      },
+      "points": 50
+    },
+    {
+      "id": "habit_warrior",
+      "name": "Habit Warrior",
+      "description": "Complete 10 daily security habits",
+      "icon": "flash-outline",
+      "color": "#f59e0b",
+      "category": "Habits",
+      "criteria": {
+        "type": "habits_completed",
+        "requirement": 10
+      },
+      "points": 100
+    },
+    {
+      "id": "habit_champion",
+      "name": "Habit Champion",
+      "description": "Complete 30 daily security habits",
+      "icon": "trophy-outline",
+      "color": "#dc2626",
+      "category": "Habits",
+      "criteria": {
+        "type": "habits_completed",
+        "requirement": 30
+      },
+      "points": 200
+    },
+    {
+      "id": "point_starter",
+      "name": "Point Starter",
+      "description": "Earn 100 points",
+      "icon": "star-outline",
+      "color": "#3b82f6",
+      "category": "Progress",
+      "criteria": {
+        "type": "total_points",
+        "requirement": 100
+      },
+      "points": 25
+    },
+    {
+      "id": "point_collector",
+      "name": "Point Collector",
+      "description": "Earn 500 points",
+      "icon": "star-half-outline",
+      "color": "#8b5cf6",
+      "category": "Progress",
+      "criteria": {
+        "type": "total_points",
+        "requirement": 500
+      },
+      "points": 50
+    },
+    {
+      "id": "point_master",
+      "name": "Point Master",
+      "description": "Earn 1,000 points",
+      "icon": "star-outline",
+      "color": "#f59e0b",
+      "category": "Progress",
+      "criteria": {
+        "type": "total_points",
+        "requirement": 1000
+      },
+      "points": 100
+    },
+    {
+      "id": "point_legend",
+      "name": "Point Legend",
+      "description": "Earn 2,500 points",
+      "icon": "sparkles-outline",
+      "color": "#dc2626",
+      "category": "Progress",
+      "criteria": {
+        "type": "total_points",
+        "requirement": 2500
+      },
+      "points": 150
+    },
+    {
+      "id": "point_titan",
+      "name": "Point Titan",
+      "description": "Earn 5,000 points",
+      "icon": "diamond-outline",
+      "color": "#8b5cf6",
+      "category": "Progress",
+      "criteria": {
+        "type": "total_points",
+        "requirement": 5000
+      },
+      "points": 250
+    },
+    {
+      "id": "level_2",
+      "name": "Rising Star",
+      "description": "Reach level 2",
+      "icon": "arrow-up-outline",
+      "color": "#3b82f6",
+      "category": "Progress",
+      "criteria": {
+        "type": "level_reached",
+        "requirement": 2
+      },
+      "points": 25
+    },
+    {
+      "id": "level_3",
+      "name": "Level Up",
+      "description": "Reach level 3",
+      "icon": "trending-up-outline",
+      "color": "#06b6d4",
+      "category": "Progress",
+      "criteria": {
+        "type": "level_reached",
+        "requirement": 3
+      },
+      "points": 50
+    },
+    {
+      "id": "level_5",
+      "name": "Cyber Defender",
+      "description": "Reach level 5",
+      "icon": "shield-outline",
+      "color": "#10b981",
+      "category": "Progress",
+      "criteria": {
+        "type": "level_reached",
+        "requirement": 5
+      },
+      "points": 75
+    },
+    {
+      "id": "level_10",
+      "name": "Security Pro",
+      "description": "Reach level 10",
+      "icon": "briefcase-outline",
+      "color": "#f59e0b",
+      "category": "Progress",
+      "criteria": {
+        "type": "level_reached",
+        "requirement": 10
+      },
+      "points": 150
+    },
+    {
+      "id": "level_15",
+      "name": "Cyber Guardian",
+      "description": "Reach level 15",
+      "icon": "shield-checkmark-outline",
+      "color": "#8b5cf6",
+      "category": "Progress",
+      "criteria": {
+        "type": "level_reached",
+        "requirement": 15
+      },
+      "points": 200
+    },
+    {
+      "id": "level_20",
+      "name": "Security Master",
+      "description": "Reach level 20",
+      "icon": "medal-outline",
+      "color": "#dc2626",
+      "category": "Progress",
+      "criteria": {
+        "type": "level_reached",
+        "requirement": 20
+      },
+      "points": 300
+    },
+    {
+      "id": "streak_3",
+      "name": "Getting Started",
+      "description": "Maintain a 3-day activity streak",
+      "icon": "flame-outline",
+      "color": "#f59e0b",
+      "category": "Engagement",
+      "criteria": {
+        "type": "activity_streak",
+        "requirement": 3
+      },
+      "points": 50
+    },
+    {
+      "id": "streak_keeper",
+      "name": "Streak Keeper",
+      "description": "Maintain a 7-day activity streak",
+      "icon": "flame-outline",
+      "color": "#f97316",
+      "category": "Engagement",
+      "criteria": {
+        "type": "activity_streak",
+        "requirement": 7
+      },
+      "points": 100
+    },
+    {
+      "id": "streak_14",
+      "name": "Dedicated Learner",
+      "description": "Maintain a 14-day activity streak",
+      "icon": "flame-outline",
+      "color": "#dc2626",
+      "category": "Engagement",
+      "criteria": {
+        "type": "activity_streak",
+        "requirement": 14
+      },
+      "points": 150
+    },
+    {
+      "id": "streak_30",
+      "name": "Unstoppable",
+      "description": "Maintain a 30-day activity streak",
+      "icon": "infinite-outline",
+      "color": "#8b5cf6",
+      "category": "Engagement",
+      "criteria": {
+        "type": "activity_streak",
+        "requirement": 30
+      },
+      "points": 250
+    },
+    {
+      "id": "streak_60",
+      "name": "Streak Legend",
+      "description": "Maintain a 60-day activity streak",
+      "icon": "rocket-outline",
+      "color": "#dc2626",
+      "category": "Engagement",
+      "criteria": {
+        "type": "activity_streak",
+        "requirement": 60
+      },
+      "points": 400
+    },
+    {
+      "id": "early_bird",
+      "name": "Early Bird",
+      "description": "Complete activities before 9 AM",
+      "icon": "sunny-outline",
+      "color": "#f59e0b",
+      "category": "Special",
+      "criteria": {
+        "type": "early_activity",
+        "requirement": 5
+      },
+      "points": 50
+    },
+    {
+      "id": "night_owl",
+      "name": "Night Owl",
+      "description": "Complete activities after 9 PM",
+      "icon": "moon-outline",
+      "color": "#8b5cf6",
+      "category": "Special",
+      "criteria": {
+        "type": "late_activity",
+        "requirement": 5
+      },
+      "points": 50
+    },
+    {
+      "id": "weekend_warrior",
+      "name": "Weekend Warrior",
+      "description": "Complete 5 quizzes on weekends",
+      "icon": "calendar-outline",
+      "color": "#10b981",
+      "category": "Special",
+      "criteria": {
+        "type": "weekend_quiz",
+        "requirement": 5
+      },
+      "points": 75
+    },
+    {
+      "id": "speed_demon",
+      "name": "Speed Demon",
+      "description": "Complete a quiz in under 2 minutes",
+      "icon": "speedometer-outline",
+      "color": "#ef4444",
+      "category": "Special",
+      "criteria": {
+        "type": "fast_quiz",
+        "requirement": 1
+      },
+      "points": 50
+    },
+    {
+      "id": "well_rounded",
+      "name": "Well Rounded",
+      "description": "Complete quizzes in 5 different categories",
+      "icon": "grid-outline",
+      "color": "#06b6d4",
+      "category": "Achievement",
+      "criteria": {
+        "type": "category_diversity",
+        "requirement": 5
+      },
+      "points": 100
+    },
+    {
+      "id": "category_master",
+      "name": "Category Master",
+      "description": "Complete all quizzes in any single category",
+      "icon": "checkmark-done-outline",
+      "color": "#10b981",
+      "category": "Achievement",
+      "criteria": {
+        "type": "category_completion",
+        "requirement": 1
+      },
+      "points": 150
+    },
+    {
+      "id": "security_expert",
+      "name": "Security Expert",
+      "description": "Complete all available quizzes with 80%+ average",
+      "icon": "ribbon-outline",
+      "color": "#dc2626",
+      "category": "Mastery",
+      "criteria": {
+        "type": "quiz_average",
+        "requirement": 80,
+        "all_quizzes": true
+      },
+      "points": 300
+    },
+    {
+      "id": "comeback_kid",
+      "name": "Comeback Kid",
+      "description": "Retake and improve a quiz score by 40%+",
+      "icon": "reload-outline",
+      "color": "#f59e0b",
+      "category": "Achievement",
+      "criteria": {
+        "type": "quiz_improvement",
+        "requirement": 40
+      },
+      "points": 75
+    }
+  ]
+}

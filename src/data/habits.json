@@ -1,0 +1,388 @@
+{
+  "securityHabits": [
+    {
+      "id": "passwordManagerUsed",
+      "name": "Password Manager",
+      "description": "Use a password manager to generate and store unique passwords",
+      "icon": "key-outline",
+      "color": "#f59e0b",
+      "category": "Authentication",
+      "frequency": "daily",
+      "points": 10,
+      "tips": [
+        "Choose a reputable password manager like Bitwarden, 1Password, or LastPass",
+        "Generate unique passwords for each account",
+        "Use the browser extension for easy access",
+        "Enable two-factor authentication on your password manager"
+      ]
+    },
+    {
+      "id": "checkSuspiciousEmails",
+      "name": "Email Vigilance",
+      "description": "Review emails for phishing attempts and suspicious links",
+      "icon": "mail-outline",
+      "color": "#ef4444",
+      "category": "Email Security",
+      "frequency": "daily",
+      "points": 10,
+      "tips": [
+        "Check sender email addresses carefully",
+        "Don't click suspicious links or attachments",
+        "Verify urgent requests through another channel",
+        "Report phishing emails to your email provider"
+      ]
+    },
+    {
+      "id": "lockDeviceWhenAway",
+      "name": "Lock Your Devices",
+      "description": "Always lock your computer and phone when stepping away",
+      "icon": "lock-closed-outline",
+      "color": "#8b5cf6",
+      "category": "Physical Security",
+      "frequency": "daily",
+      "points": 10,
+      "tips": [
+        "Use Windows Key + L on Windows or Control + Command + Q on Mac",
+        "Set auto-lock after 5 minutes of inactivity",
+        "Use strong PIN or biometric authentication",
+        "Never leave devices unattended in public"
+      ]
+    },
+    {
+      "id": "reviewAppPermissions",
+      "name": "App Permissions Check",
+      "description": "Review and limit app permissions on your devices",
+      "icon": "shield-outline",
+      "color": "#06b6d4",
+      "category": "Mobile Security",
+      "frequency": "daily",
+      "points": 10,
+      "tips": [
+        "Remove permissions apps don't need",
+        "Check which apps have location access",
+        "Limit camera and microphone permissions",
+        "Uninstall apps you no longer use"
+      ]
+    },
+    {
+      "id": "secureWifiUsage",
+      "name": "Secure Wi-Fi Usage",
+      "description": "Use secure networks and avoid public Wi-Fi for sensitive activities",
+      "icon": "wifi-outline",
+      "color": "#10b981",
+      "category": "Network Security",
+      "frequency": "daily",
+      "points": 10,
+      "tips": [
+        "Use WPA3 encryption on home networks",
+        "Avoid public Wi-Fi for banking or shopping",
+        "Use a VPN when on public networks",
+        "Forget public Wi-Fi networks after use"
+      ]
+    },
+    {
+      "id": "httpsVerification",
+      "name": "Verify HTTPS",
+      "description": "Always check for HTTPS before entering sensitive information",
+      "icon": "shield-checkmark-outline",
+      "color": "#3b82f6",
+      "category": "Web Security",
+      "frequency": "daily",
+      "points": 10,
+      "tips": [
+        "Look for the padlock icon in the address bar",
+        "Never enter passwords on HTTP sites",
+        "Be cautious of certificate warnings",
+        "Use browser extensions that enforce HTTPS"
+      ]
+    },
+    {
+      "id": "socialMediaPrivacy",
+      "name": "Social Media Privacy",
+      "description": "Review and adjust social media privacy settings",
+      "icon": "people-outline",
+      "color": "#f97316",
+      "category": "Privacy",
+      "frequency": "daily",
+      "points": 10,
+      "tips": [
+        "Limit who can see your posts",
+        "Don't share location in real-time",
+        "Review friend/follower requests carefully",
+        "Avoid posting personal information publicly"
+      ]
+    },
+    {
+      "id": "clearBrowserData",
+      "name": "Clear Browser Data",
+      "description": "Clear cookies and cache to protect privacy",
+      "icon": "trash-outline",
+      "color": "#dc2626",
+      "category": "Privacy",
+      "frequency": "daily",
+      "points": 10,
+      "tips": [
+        "Clear browsing history regularly",
+        "Delete cookies from untrusted sites",
+        "Use private browsing for sensitive searches",
+        "Consider using privacy-focused browsers"
+      ]
+    },
+    {
+      "id": "twoFactorEnabled",
+      "name": "Two-Factor Authentication",
+      "description": "Enable 2FA on all important accounts",
+      "icon": "shield-checkmark-outline",
+      "color": "#10b981",
+      "category": "Authentication",
+      "frequency": "monthly",
+      "points": 10,
+      "tips": [
+        "Use authenticator apps instead of SMS when possible",
+        "Enable 2FA on email, banking, and social media accounts",
+        "Keep backup codes in a safe place",
+        "Consider hardware security keys for maximum protection"
+      ]
+    },
+    {
+      "id": "regularBreachChecks",
+      "name": "Data Breach Monitoring",
+      "description": "Check for data breaches involving your email",
+      "icon": "search-outline",
+      "color": "#ef4444",
+      "category": "Monitoring",
+      "frequency": "monthly",
+      "points": 10,
+      "tips": [
+        "Check for breaches at least monthly",
+        "Use services like Have I Been Pwned",
+        "Change passwords immediately if breached",
+        "Monitor your accounts for suspicious activity"
+      ]
+    },
+    {
+      "id": "securityUpdatesEnabled",
+      "name": "Software Updates",
+      "description": "Keep all devices and software up to date",
+      "icon": "download-outline",
+      "color": "#3b82f6",
+      "category": "System Security",
+      "frequency": "monthly",
+      "points": 10,
+      "tips": [
+        "Enable automatic updates for your operating system",
+        "Keep browsers and apps updated",
+        "Update router firmware regularly",
+        "Don't postpone critical security updates"
+      ]
+    },
+    {
+      "id": "reviewAccountActivity",
+      "name": "Account Activity Review",
+      "description": "Review login activity on important accounts",
+      "icon": "time-outline",
+      "color": "#f59e0b",
+      "category": "Monitoring",
+      "frequency": "monthly",
+      "points": 10,
+      "tips": [
+        "Check for unrecognized login locations",
+        "Review connected devices and apps",
+        "Revoke access from unused services",
+        "Enable login notifications"
+      ]
+    },
+    {
+      "id": "passwordAudit",
+      "name": "Password Audit",
+      "description": "Review and update weak or reused passwords",
+      "icon": "eye-outline",
+      "color": "#8b5cf6",
+      "category": "Authentication",
+      "frequency": "monthly",
+      "points": 10,
+      "tips": [
+        "Use password manager's security audit feature",
+        "Replace weak or compromised passwords",
+        "Ensure no password is reused",
+        "Update passwords for important accounts"
+      ]
+    },
+    {
+      "id": "privacySettingsReview",
+      "name": "Privacy Settings Audit",
+      "description": "Review privacy settings across all platforms",
+      "icon": "settings-outline",
+      "color": "#06b6d4",
+      "category": "Privacy",
+      "frequency": "monthly",
+      "points": 10,
+      "tips": [
+        "Review app permissions on phone and computer",
+        "Check social media privacy settings",
+        "Audit third-party app access",
+        "Update cookie preferences on websites"
+      ]
+    },
+    {
+      "id": "antivirusScan",
+      "name": "Antivirus Scan",
+      "description": "Run a full system antivirus scan",
+      "icon": "bug-outline",
+      "color": "#dc2626",
+      "category": "System Security",
+      "frequency": "monthly",
+      "points": 10,
+      "tips": [
+        "Run full system scans monthly",
+        "Keep antivirus definitions updated",
+        "Scan external drives before use",
+        "Remove or quarantine detected threats"
+      ]
+    },
+    {
+      "id": "emailFilterUpdate",
+      "name": "Email Filter Management",
+      "description": "Update spam filters and email rules",
+      "icon": "filter-outline",
+      "color": "#f97316",
+      "category": "Email Security",
+      "frequency": "monthly",
+      "points": 10,
+      "tips": [
+        "Mark spam emails to improve filtering",
+        "Create rules to organize important emails",
+        "Unsubscribe from unwanted newsletters",
+        "Block persistent spam senders"
+      ]
+    },
+    {
+      "id": "dataBackupRoutine",
+      "name": "Data Backup",
+      "description": "Backup important data to multiple locations",
+      "icon": "cloud-upload-outline",
+      "color": "#10b981",
+      "category": "Data Protection",
+      "frequency": "monthly",
+      "points": 10,
+      "tips": [
+        "Follow the 3-2-1 rule: 3 copies, 2 different media, 1 offsite",
+        "Test your backups regularly",
+        "Encrypt sensitive backup data",
+        "Automate backups when possible"
+      ]
+    },
+    {
+      "id": "deviceInventory",
+      "name": "Device Security Audit",
+      "description": "Review all connected devices and their security",
+      "icon": "phone-portrait-outline",
+      "color": "#8b5cf6",
+      "category": "Device Security",
+      "frequency": "yearly",
+      "points": 10,
+      "tips": [
+        "List all devices accessing your accounts",
+        "Remove old or unused devices",
+        "Check for firmware updates on IoT devices",
+        "Ensure all devices have security software"
+      ]
+    },
+    {
+      "id": "securityTraining",
+      "name": "Security Training",
+      "description": "Complete annual cybersecurity awareness training",
+      "icon": "school-outline",
+      "color": "#3b82f6",
+      "category": "Education",
+      "frequency": "yearly",
+      "points": 10,
+      "tips": [
+        "Stay updated on latest security threats",
+        "Learn about new protection methods",
+        "Take online security courses",
+        "Share knowledge with family and friends"
+      ]
+    },
+    {
+      "id": "insuranceReview",
+      "name": "Cyber Insurance Review",
+      "description": "Review cyber insurance and identity theft protection",
+      "icon": "document-text-outline",
+      "color": "#f59e0b",
+      "category": "Protection",
+      "frequency": "yearly",
+      "points": 10,
+      "tips": [
+        "Consider identity theft protection services",
+        "Review coverage limits",
+        "Understand what's covered",
+        "Keep important documents secure"
+      ]
+    },
+    {
+      "id": "comprehensiveSecurityAudit",
+      "name": "Full Security Audit",
+      "description": "Conduct a comprehensive security review of all accounts and devices",
+      "icon": "analytics-outline",
+      "color": "#dc2626",
+      "category": "Audit",
+      "frequency": "yearly",
+      "points": 10,
+      "tips": [
+        "Review all online accounts",
+        "Close unused accounts",
+        "Update recovery information",
+        "Document your security measures"
+      ]
+    },
+    {
+      "id": "emergencyPlanUpdate",
+      "name": "Emergency Response Plan",
+      "description": "Update your cybersecurity incident response plan",
+      "icon": "alert-circle-outline",
+      "color": "#ef4444",
+      "category": "Planning",
+      "frequency": "yearly",
+      "points": 10,
+      "tips": [
+        "Know who to contact if compromised",
+        "Keep emergency contact numbers handy",
+        "Document recovery procedures",
+        "Practice your response plan"
+      ]
+    },
+    {
+      "id": "legalDocumentsSecure",
+      "name": "Secure Important Documents",
+      "description": "Review and secure storage of critical documents",
+      "icon": "folder-outline",
+      "color": "#06b6d4",
+      "category": "Data Protection",
+      "frequency": "yearly",
+      "points": 10,
+      "tips": [
+        "Encrypt sensitive documents",
+        "Use secure cloud storage",
+        "Keep physical copies in safe location",
+        "Shred outdated documents properly"
+      ]
+    },
+    {
+      "id": "beneficiaryUpdate",
+      "name": "Digital Legacy Planning",
+      "description": "Update digital asset access for trusted contacts",
+      "icon": "heart-outline",
+      "color": "#f97316",
+      "category": "Planning",
+      "frequency": "yearly",
+      "points": 10,
+      "tips": [
+        "Designate trusted person for account access",
+        "Use password manager's emergency access",
+        "Document important account locations",
+        "Review and update annually"
+      ]
+    }
+  ]
+}
