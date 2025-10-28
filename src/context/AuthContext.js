@@ -15,6 +15,8 @@ import * as Google from 'expo-auth-session/providers/google';
 import * as WebBrowser from 'expo-web-browser';
 import { Platform } from 'react-native';
 
+// Handles all Firebase Auth and Google authentication details
+
 WebBrowser.maybeCompleteAuthSession();
 const AuthContext = createContext();
 

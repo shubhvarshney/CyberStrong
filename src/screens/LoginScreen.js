@@ -16,6 +16,8 @@ import { useAuth } from '../context/AuthContext';
 import { useTheme } from '../context/ThemeContext';
 import { useEffect } from 'react';
 
+// Simple login screen with Google Sign In option
+
 const LoginScreen = ({ navigation }) => {
   const { theme } = useTheme();
   const [email, setEmail] = useState('');

@@ -1,6 +1,8 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
+// The review for each quiz with its corresponding explanations
+
 const QuizReview = ({ quiz, userAnswers }) => {
   if (!quiz) return null;
   return (

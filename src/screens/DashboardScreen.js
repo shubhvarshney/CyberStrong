@@ -13,6 +13,8 @@ import { useAuth } from '../context/AuthContext';
 import { useTheme } from '../context/ThemeContext';
 import { UserDataService } from '../services/UserDataService';
 
+// Home page with summary of statistics and cards to other pages
+
 const { width } = Dimensions.get('window');
 
 const DashboardScreen = ({ navigation }) => {

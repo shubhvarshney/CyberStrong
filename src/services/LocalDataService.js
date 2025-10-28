@@ -2,6 +2,8 @@ import quizzesData from '../data/quizzes.json';
 import badgesData from '../data/badges.json';
 import habitsData from '../data/habits.json';
 
+// Coordinates data from json files in data folder
+
 export class LocalDataService {
   static getQuizzes() {
     return quizzesData.quizzes;

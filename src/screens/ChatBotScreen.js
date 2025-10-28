@@ -6,6 +6,8 @@ import ChatBotTitle from '../components/ChatBotTitle';
 import ImageUploadButton from '../components/ImageUploadButton';
 import { useTheme } from '../context/ThemeContext';
 
+// Chatbot screen with Gemini integration, attempting a safe responses from the bot
+
 const ChatBotScreen = () => {
   const { theme } = useTheme();
   const [messages, setMessages] = useState([

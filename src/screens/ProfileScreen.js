@@ -13,6 +13,8 @@ import { Ionicons } from '@expo/vector-icons';
 import { useAuth } from '../context/AuthContext';
 import { useTheme } from '../context/ThemeContext';
 
+// Provides summary statistics for the user along with preferences like light vs. dark mode
+
 const ProfileScreen = () => {
   const { currentUser, logout, userProfile } = useAuth();
   const { theme, isDarkMode, toggleTheme } = useTheme();

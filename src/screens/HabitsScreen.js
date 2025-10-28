@@ -13,6 +13,8 @@ import { useTheme } from '../context/ThemeContext';
 import { UserDataService } from '../services/UserDataService';
 import { LocalDataService } from '../services/LocalDataService';
 
+// Shows habits, organizing data with date, month, and year
+
 const HabitsScreen = () => {
   const { currentUser, userProfile, refreshUserProfile } = useAuth();
   const { theme } = useTheme();

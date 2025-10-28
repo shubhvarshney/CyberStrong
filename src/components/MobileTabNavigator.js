@@ -11,6 +11,8 @@ import {
 import { Ionicons } from '@expo/vector-icons';
 import { useTheme } from '../context/ThemeContext';
 
+// Scrollable and responsive navigation bar
+
 const { width } = Dimensions.get('window');
 
 const MobileTabNavigator = ({ state, descriptors, navigation }) => {

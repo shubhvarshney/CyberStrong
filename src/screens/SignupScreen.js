@@ -15,6 +15,8 @@ import { useAuth } from '../context/AuthContext';
 import { useTheme } from '../context/ThemeContext';
 import { useEffect } from 'react';
 
+// Simple signup screen with Google integration and checks to ensure the security of the user's password
+
 const SignupScreen = ({ navigation }) => {
   const { theme } = useTheme();
   const [email, setEmail] = useState('');

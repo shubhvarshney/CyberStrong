@@ -14,6 +14,8 @@ import { UserDataService } from '../services/UserDataService';
 import { LocalDataService } from '../services/LocalDataService';
 import QuizReview from '../components/QuizReview';
 
+// Shows all the quizzes, sorting them by whether they were completed, allowing the user to review them
+
 const QuizzesScreen = () => {
   const { currentUser, refreshUserProfile } = useAuth();
   const { theme } = useTheme();

@@ -15,6 +15,8 @@ import { useAuth } from '../context/AuthContext';
 import { useTheme } from '../context/ThemeContext';
 import { XposedOrNotAPI } from '../services/XposedOrNotAPI';
 
+// Used XPosedOrNot to mimic haveibeenpwned, showing detailed data breaches and allowing for other email checks
+
 const EmailBreachScreen = () => {
   const { currentUser } = useAuth();
   const { theme } = useTheme();

@@ -15,6 +15,8 @@ import {
 import { db } from '../../firebase.config';
 import { LocalDataService } from './LocalDataService';
 
+// Coordinates data from firebase for each user and updates according to app actions
+
 export class UserDataService {
   static async initializeUserProfile(userId, userInfo) {
     try {

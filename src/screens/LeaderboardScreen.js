@@ -15,6 +15,8 @@ import { useTheme } from '../context/ThemeContext';
 import { collection, query, orderBy, limit, getDocs } from 'firebase/firestore';
 import { db } from '../../firebase.config';
 
+// Ranks all users based on points and has special styling
+
 const { width } = Dimensions.get('window');
 
 const LeaderboardScreen = () => {

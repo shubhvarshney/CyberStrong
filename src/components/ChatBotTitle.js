@@ -2,6 +2,8 @@ import React from 'react';
 import { View, Text, StyleSheet, Image } from 'react-native';
 import { useTheme } from '../context/ThemeContext';
 
+// Special title for the chatbot page with logo
+
 const ChatBotTitle = () => {
   const { theme } = useTheme();
   return (

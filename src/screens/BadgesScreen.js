@@ -12,6 +12,8 @@ import { useAuth } from '../context/AuthContext';
 import { useTheme } from '../context/ThemeContext';
 import { LocalDataService } from '../services/LocalDataService';
 
+// Displays badges with relevant progress, showing if they are earned or not
+
 const { width } = Dimensions.get('window');
 
 const BadgesScreen = () => {

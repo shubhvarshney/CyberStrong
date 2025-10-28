@@ -6,6 +6,8 @@ const getApiBaseUrl = () => {
 
 const API_BASE_URL = getApiBaseUrl();
 
+// Connects with the XposedOrNot API and follows documentation to get relevant data
+
 export class XposedOrNotAPI {
   static async checkEmail(email) {
     const fullUrl = `${API_BASE_URL}/breach-analytics?email=${encodeURIComponent(email)}`;
