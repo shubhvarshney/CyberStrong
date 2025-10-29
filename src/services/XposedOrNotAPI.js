@@ -1,7 +1,7 @@
 import { Alert, Platform } from 'react-native';
 
 const getApiBaseUrl = () => {
-  return 'https://passwords.xposedornot.com/v1';
+  return 'https://api.xposedornot.com/v1';
 };
 
 const API_BASE_URL = getApiBaseUrl();

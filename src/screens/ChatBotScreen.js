@@ -27,6 +27,8 @@ const ChatBotScreen = () => {
     scrollRef.current?.scrollToEnd({ animated: true });
   }, [messages.length]);
 
+  const SYSTEM_PROMPT = 'You are a helpful and knowledgeable cybersecurity assistant. Please provide accurate and concise information on cybersecurity topics that the user asks. They may also share an image for you to analyze for phishing. Prioritize user safety and privacy. Do not use markdown syntax.';
+
   const sendMessage = async () => {
     if ((!input.trim() && !image) || isSending) return;
     setError('');
@@ -56,6 +58,7 @@ const ChatBotScreen = () => {
     setIsSending(true);
     try {
       const parts = [];
+      parts.push({ text: SYSTEM_PROMPT });
       if (content) {
         parts.push({ text: content });
       }

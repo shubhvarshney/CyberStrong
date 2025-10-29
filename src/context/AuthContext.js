@@ -40,7 +40,7 @@ export const AuthProvider = ({ children }) => {
     expoClientId: WEB_CLIENT_ID,
     webClientId: WEB_CLIENT_ID,
     iosClientId: IOS_CLIENT_ID,
-    androidClientId: '',
+    androidClientId: '', // Not added here yet, since the id can only be obtained during production with package and SHA1 Fingerprint
   });
 
   const [request, response, promptAsync] = Google.useAuthRequest({
