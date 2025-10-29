@@ -284,7 +284,7 @@ const QuizzesScreen = () => {
       </View>
       {completedQuizzes.length > 0 && (
         <View style={styles.quizzesContainer}>
-          <Text style={styles.sectionHeading}>Completed</Text>
+          <Text style={[styles.sectionHeading, { color: theme.primary }]}>Completed</Text>
           {completedQuizzes.map((quiz) => (
             <View key={quiz.id} style={[styles.quizCard, styles.completedCard, { backgroundColor: theme.cardBackground, borderColor: theme.border }]}>
               <TouchableOpacity style={{ flex: 1 }} onPress={() => startQuiz(quiz)}>
@@ -405,7 +405,6 @@ const styles = StyleSheet.create({
   },
   completedLabel: {
     fontSize: 12,
-    color: '#10b981',
     marginLeft: 12,
     fontWeight: '600',
   },
